@@ -11,8 +11,8 @@ steps:
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore.git
   commit: 8968c55
   inputs:
-    - AC_XCODE_LIST_DIR
-    - AC_XCODE_VERSION
-    - AC_STACK_TYPE
-    - AC_APPSTORE_API_KEY_TYPE
-    - AC_RELEASE_NOTES
+    - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
+    - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
+    - AC_STACK_TYPE: "$AC_XCODE_VERSION"
+    - AC_APPSTORE_API_KEY_TYPE: "$AC_APPSTORE_API_KEY_TYPE"
+    - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
