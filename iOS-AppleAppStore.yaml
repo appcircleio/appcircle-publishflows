@@ -2,7 +2,7 @@ directories:
 - AC_SOURCE
 - AC_OUTPUT_DIR
 steps:  
-- componentType: appcircle-publish-send-to-appstore
+- componentType: appcircle_publish_send_to_appstore
   componentVersion: "1.0.*"
   stepName: Send To Appstore Connect
   enabled: true

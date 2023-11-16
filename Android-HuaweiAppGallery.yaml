@@ -2,7 +2,7 @@ directories:
   - AC_OUTPUT_DIR
   - AC_SOURCE
 steps:
-  - componentType: appcircle-publish-send-to-appgallery
+  - componentType: appcircle_publish_send_to_appgallery
     componentVersion: 1.0.*
     stepName: Send to Huawei AppGallery
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery'
