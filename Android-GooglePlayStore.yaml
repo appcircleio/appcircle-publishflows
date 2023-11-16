@@ -12,6 +12,6 @@ steps:
     onError: $exit
     alwaysRun: false
     inputs:
-      - AC_STORE_CREDENTIAL_ID
-      - AC_RELEASE_NOTES
+      - AC_STORE_CREDENTIAL_ID: "$AC_STORE_CREDENTIAL_ID"
+      - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
     outputs: []
