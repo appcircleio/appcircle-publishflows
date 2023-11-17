@@ -12,7 +12,7 @@ steps:
     onError: $exit
     alwaysRun: false
     inputs:
-      - AC_STORE_CREDENTIAL_ID: "$AC_STORE_CREDENTIAL_ID"
+      - AC_STORE_CREDENTIAL_ID: null
       - AC_HUAWEI_APP_ID: "$AC_HUAWEI_APP_ID"
       - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
     outputs: []
