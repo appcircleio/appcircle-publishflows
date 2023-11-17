@@ -2,16 +2,17 @@ directories:
   - AC_OUTPUT_DIR
   - AC_SOURCE
 steps:
-  - componentType: appcircle-publish-send-to-playstore
+  - componentType: appcircle_publish_send_to_playstore
     componentVersion: 1.0.*
-    stepName: Send to Google PlayStore
+    stepName: Send to Google Play Store
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
-    commit: bb7d76e
+    commit: 215e842
     enabled: true
     onError: $exit
     alwaysRun: false
     inputs:
-      - AC_STORE_CREDENTIAL_ID: "$AC_STORE_CREDENTIAL_ID"
+      - AC_STORE_CREDENTIAL_ID: null
       - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
+      - AC_RELEASE_STATUS: "$AC_RELEASE_STATUS"
     outputs: []

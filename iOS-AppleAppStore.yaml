@@ -2,17 +2,18 @@ directories:
 - AC_SOURCE
 - AC_OUTPUT_DIR
 steps:  
-- componentType: appcircle-publish-send-to-appstore
+- componentType: appcircle_publish_send_to_appstore
   componentVersion: "1.0.*"
-  stepName: Send To Appstore Connect
+  stepName: Send to App Store Connect
   enabled: true
   onError: $exit
   webUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore.git
-  commit: 8968c55
+  commit: 508fd50
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
-    - AC_STACK_TYPE: "$AC_XCODE_VERSION"
+    - AC_STACK_TYPE: "$AC_STACK_TYPE"
+    - AC_STORE_CREDENTIAL_ID : null
     - AC_APPSTORE_API_KEY_TYPE: "$AC_APPSTORE_API_KEY_TYPE"
     - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
