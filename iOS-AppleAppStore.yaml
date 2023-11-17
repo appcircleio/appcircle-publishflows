@@ -9,7 +9,7 @@ steps:
   onError: $exit
   webUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore.git
-  commit: 8968c55
+  commit: 508fd50
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"

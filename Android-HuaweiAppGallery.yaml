@@ -7,7 +7,7 @@ steps:
     stepName: Send to Huawei AppGallery
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery.git'
-    commit: 635ebec
+    commit: 2cd6910
     enabled: true
     onError: $exit
     alwaysRun: false
