@@ -4,7 +4,7 @@ directories:
 steps:
   - componentType: appcircle_publish_send_to_playstore
     componentVersion: 1.0.*
-    stepName: Send to Google PlayStore
+    stepName: Send to Google Play Store
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
     commit: 215e842

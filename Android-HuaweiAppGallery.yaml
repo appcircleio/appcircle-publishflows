@@ -4,7 +4,7 @@ directories:
 steps:
   - componentType: appcircle_publish_send_to_appgallery
     componentVersion: 1.0.*
-    stepName: Send to Huawei AppGallery
+    stepName: Send to Huawei App Gallery
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery.git'
     commit: 2cd6910
