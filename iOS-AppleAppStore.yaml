@@ -7,13 +7,13 @@ steps:
   stepName: Send to App Store Connect
   enabled: true
   onError: $exit
+  onSuccess: $next
   webUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore.git
-  commit: b82c7dc
+  commit: 36a793f
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
     - AC_STACK_TYPE: "TestFlight"
     - AC_STORE_CREDENTIAL_ID : "Select"
-    - AC_APPSTORE_API_KEY_TYPE: "$AC_APPSTORE_API_KEY_TYPE"
     - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"

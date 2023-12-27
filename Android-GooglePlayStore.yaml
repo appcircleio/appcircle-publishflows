@@ -7,9 +7,10 @@ steps:
     stepName: Send to Google Play Store
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
-    commit: 2edb6a6
+    commit: 86fce56
     enabled: true
     onError: $exit
+    onSuccess: $next
     alwaysRun: false
     inputs:
       - AC_STORE_CREDENTIAL_ID: "Select"
