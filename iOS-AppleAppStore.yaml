@@ -4,7 +4,7 @@ directories:
 steps:  
 - componentType: appcircle_publish_send_to_appstore
   componentVersion: "1.0.*"
-  stepName: Send an App Version to TestFlight
+  stepName: Send to TestFlight
   enabled: true
   onError: $exit
   onSuccess: $next
