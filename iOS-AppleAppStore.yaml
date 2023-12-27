@@ -2,15 +2,15 @@ directories:
 - AC_SOURCE
 - AC_OUTPUT_DIR
 steps:  
-- componentType: appcircle_publish_send_to_appstore
+- componentType: appcircle_publish_send_to_testflight
   componentVersion: "1.0.*"
   stepName: Send to TestFlight
   enabled: true
   onError: $exit
   onSuccess: $next
-  webUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore
-  repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-appstore.git
-  commit: f3514f9
+  webUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight
+  repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight.git
+  commit: 5c6e9ae
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
