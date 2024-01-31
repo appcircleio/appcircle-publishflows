@@ -18,3 +18,18 @@ steps:
       - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
       - AC_RELEASE_STATUS: "$AC_RELEASE_STATUS"
     outputs: []
+  - componentType: appcircle_publish_send_to_appgallery
+    componentVersion: 1.0.*
+    stepName: Send to Huawei App Gallery
+    webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery'
+    repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery.git'
+    commit: f5c1109
+    enabled: true
+    onError: $exit
+    onSuccess: $next
+    alwaysRun: false
+    inputs:
+      - AC_STORE_CREDENTIAL_ID: "Select"
+      - AC_HUAWEI_APP_ID: "$AC_HUAWEI_APP_ID"
+      - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
+    outputs: []
