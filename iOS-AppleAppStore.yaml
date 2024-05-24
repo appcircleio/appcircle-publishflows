@@ -10,7 +10,7 @@ steps:
   onSuccess: $next
   webUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight.git
-  commit: 004266f
+  commit: 2818cb4
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
