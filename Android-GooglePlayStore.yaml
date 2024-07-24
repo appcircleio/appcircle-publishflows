@@ -7,7 +7,7 @@ steps:
     stepName: Send to Google Play Store
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
-    commit: ab0d4ab
+    commit: 337b722
     enabled: true
     onError: $exit
     onSuccess: $next
@@ -22,7 +22,7 @@ steps:
     stepName: Send to Huawei App Gallery
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-appgallery.git'
-    commit: 70fc5c5
+    commit: b427317
     enabled: true
     onError: $exit
     onSuccess: $next
