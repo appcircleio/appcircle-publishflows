@@ -3,14 +3,14 @@ directories:
 - AC_OUTPUT_DIR
 steps:  
 - componentType: appcircle_publish_send_to_testflight
-  componentVersion: "1.1.*"
+  componentVersion: "1.2.*"
   stepName: Send to TestFlight
   enabled: true
   onError: $exit
   onSuccess: $next
   webUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight
   repoUrl: https://github.com/appcircleio/appcircle-publish-send-to-testflight.git
-  commit: 004266f
+  commit: 458bf00
   inputs:
     - AC_XCODE_LIST_DIR: "$AC_XCODE_LIST_DIR"
     - AC_XCODE_VERSION: "$AC_XCODE_VERSION"
