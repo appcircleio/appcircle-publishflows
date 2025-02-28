@@ -7,7 +7,7 @@ steps:
     stepName: Send to Google Play
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
-    commit: 15c96b9
+    commit: 51a95b6ebe1984e88167aa804ababc2ba59783c2
     enabled: true
     onError: $exit
     onSuccess: $next
