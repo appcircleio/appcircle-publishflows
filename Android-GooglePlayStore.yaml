@@ -3,19 +3,20 @@ directories:
   - AC_SOURCE
 steps:
   - componentType: appcircle_publish_send_to_playstore
-    componentVersion: 1.1.*
-    stepName: Send to Google Play Store
+    componentVersion: 1.2.*
+    stepName: Send to Google Play
     webUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore'
     repoUrl: 'https://github.com/appcircleio/appcircle-publish-send-to-playstore.git'
-    commit: aa08101
+    commit: 15c96b9
     enabled: true
     onError: $exit
     onSuccess: $next
     alwaysRun: false
     inputs:
-      - AC_STACK_TYPE: "Alpha"
+      - AC_STACK_TYPE: "internal"
       - AC_RELEASE_NOTES: "$AC_RELEASE_NOTES"
       - AC_RELEASE_STATUS: "$AC_RELEASE_STATUS"
+      - AC_AUTO_SEND_PLAYSTORE_REVIEW: "$AC_AUTO_SEND_PLAYSTORE_REVIEW"
     outputs: []
   - componentType: appcircle_publish_send_to_appgallery
     componentVersion: 1.1.*
